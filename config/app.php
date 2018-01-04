@@ -167,6 +167,7 @@ return [
         /*
          * Package Service Providers...
          */
+        Devfactory\Minify\MinifyServiceProvider::class,
 
         /*
          * Application Service Providers...
@@ -225,6 +226,8 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
+
+        'Minify' => Devfactory\Minify\Facades\MinifyFacade::class,
 
     ],
 
