@@ -1,7 +1,5 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="container">
-        fsadas
-    </div>
+    <div id="map" class="text-white bg-dark"></div>
 @endsection

@@ -60,11 +60,11 @@
 </main>
 
 
-<footer class="bg-dark text-white pt-5 pb-3 text-center">
+{{-- <footer class="bg-dark text-white pt-5 pb-3 text-center">
     <div class="container">
         <p class="text-uppercase h4"><span class="oi oi-map"></span></p>
         <p>Author: <a href="https://github.com/goszowski" rel="nofollow" target="_blank">Goszowski</a></p>
     </div>
-</footer>
+</footer> --}}
 
 @endsection

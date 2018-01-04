@@ -18,3 +18,7 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+
+Route::post('/', ['as'=>'set-position', 'uses'=>'HomeController@setPosition']);
+Route::get('/get-positions', ['as'=>'get-positions', 'uses'=>'HomeController@getPositions']);
